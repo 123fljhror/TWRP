@@ -172,5 +172,11 @@ jobs:
           Manifest: ${{ github.event.inputs.MANIFEST_BRANCH }}
           Device: ${{ github.event.inputs.DEVICE_NAME }}
           Target: ${{ github.event.inputs.BUILD_TARGET }}.img
-      env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+         env:
+  DEVICE_TREE_URL: "https://github.com/TuberMain/twrp_device_sp9820e_xtc_i28"
+  DEVICE_TREE_BRANCH: "twrp‑4.4"
+  MANIFEST_URL: "https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git"
+  MANIFEST_BRANCH: "twrp‑5.1"
+  DEVICE_NAME: "xtc_i28"
+
+
