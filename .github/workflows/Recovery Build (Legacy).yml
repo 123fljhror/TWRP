@@ -6,19 +6,19 @@ on:
       MANIFEST_URL:
         description: 'MANIFEST_URL (if want to use SSH keys, use git@github.com:XXXXX)'
         required: true
-        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_omni'
+        default: 'https://github.com/minimal-manifest-twrp/platform_manifest_twrp_aosp.git'
       MANIFEST_BRANCH:
         description: 'MANIFEST_BRANCH'
-        required: true
-        default: 'twrp-7.1'
+        required: true 
+        default: 'twrp‑5.1'
       DEVICE_TREE_URL:
         description: 'DEVICE_TREE_URL'
         required: true
-        default: 'https://github.com/ycly2333/android_device_EEBBK_H3000S-twrp'
+        default: 'https://github.com/TuberMain/twrp_device_sp9820e_xtc_i28'
       DEVICE_TREE_BRANCH:
         description: 'DEVICE_TREE_BRANCH'
         required: true
-        default: 'twrp-7.1'
+        default: 'twrp‑4.4'
       DEVICE_PATH:
         description: 'DEVICE_PATH'
         required: true
